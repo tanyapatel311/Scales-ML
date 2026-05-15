@@ -1,3 +1,9 @@
+'''
+Standalone FPS benchmark script on CIFAR-100 for resnet inference
+NOT drop in for F'
+focused on loops and warmup
+
+'''
 import torch
 from transformers import AutoImageProcessor, ResNetForImageClassification
 from datasets import load_dataset

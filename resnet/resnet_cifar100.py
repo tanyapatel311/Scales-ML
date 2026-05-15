@@ -1,3 +1,8 @@
+'''
+Dataset inference script for CIFAR-100 (via datasets)
+NOT for F'
+Uses dataset loading and prints predictions more of an experiment/dev script
+'''
 import torch
 from transformers import AutoImageProcessor, ResNetForImageClassification
 from datasets import load_dataset

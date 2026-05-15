@@ -1,3 +1,8 @@
+'''
+Training script (ResNet-50 on CIFAR-100)
+with optimizer/scheduler/checkpointing and Hugging Face push logic
+Not drop in for F'.
+'''
 import torch
 import torch.nn as nn
 import torch.optim as optim
